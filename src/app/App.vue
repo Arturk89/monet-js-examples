@@ -1,7 +1,12 @@
 <script setup lang="ts">
-import NxWelcome from './NxWelcome.vue';
+import fromNullable from "./features/fromNullable.vue";
+import promiseComponent from './features/promise.vue'
+import chainingValue from './features/chainingValue.vue'
 </script>
 
 <template>
-  <NxWelcome title="org1" />
+  <h3>Welcome</h3>
+  <from-nullable></from-nullable>
+<!--  <promise-component></promise-component>-->
+<!--  <chaining-value></chaining-value>-->
 </template>
